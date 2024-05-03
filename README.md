@@ -2,6 +2,12 @@
 
 This project is a web application that visualizes the similarities between different people. It uses a JSON file containing data about the person, including their names, brief bios, and similarity scores, to generate an interactive visualization.
 
+## Live Demo
+
+Check out the live version of the project [here](https://aurora-freelance.github.io/orion/).
+
+![orion](https://aurora-freelance.github.io/orion/demo.png)
+
 ## How to Use
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine:
