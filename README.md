@@ -62,3 +62,7 @@ Can you give me a list of the ten most famous music artists, format similarity m
 ## Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Any contributions are welcome!
+
+## Acknowledgement
+
+**Disclaimer**: The code and content in this project were generated using ChatGPT, an AI language model developed by OpenAI. As the project owner, I did not personally write any of the code or content contained herein. Instead, I utilized ChatGPT's capabilities to generate and manipulate text based on prompts and queries provided during interactions with the model. All credit for the code and content goes to OpenAI and the ChatGPT model.
