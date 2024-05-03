@@ -32,28 +32,28 @@ Can you give me a list of the ten most famous music artists, format similarity m
   "title": "Explore Music Artist Fan Base Overlaps Interactively",
   "people": [
     {
-      "name": "Alice",
-      "bio": "HR representative for a large company.",
+      "name": "Adele",
+      "bio": "Grammy-winning singer-songwriter.",
       "color": "#FF5733",
       "radius": 100
     },
     {
-      "name": "Bob",
-      "bio": "Software engineer with a passion for coding.",
+      "name": "Ed Sheeran",
+      "bio": "Chart-topping pop artist.",
       "color": "#3498DB",
       "radius": 100
     },
     {
-      "name": "John",
-      "bio": "Marketing specialist with a creative mindset.",
+      "name": "Beyoncé",
+      "bio": "Iconic R&B performer.",
       "color": "#FFC300",
       "radius": 100
     }
   ],
   "similarityMatrix": [
-    [10, 7, 5],
-    [7, 10, 6],
-    [5, 6, 10]
+    [10, 8, 7],
+    [8, 10, 9],
+    [7, 9, 10]
   ]
 }
 
