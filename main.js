@@ -8,17 +8,25 @@ document.addEventListener("DOMContentLoaded", async function () {
   const people = data.people;
   const similarityMatrix = data.similarityMatrix;
 
-  // Display the title and description at the top of the screen
+  // Create a container for the title and description
+  const instructionsContainer = document.createElement("div");
+  instructionsContainer.className = "instructions";
+
+  // Display the title at the top of the screen
   const appTitle = document.createElement("h1");
   appTitle.innerText = title;
   appTitle.className = "app-title"; // Adding class to the title
-  document.body.insertBefore(appTitle, document.body.firstChild);
+  instructionsContainer.appendChild(appTitle);
 
+  // Display the description below the title
   const description = document.createElement("p");
   description.innerText =
     "Touch circles to make them grow. The size of the circles is based on the similarity between them.";
   description.className = "app-description"; // Adding class to the description
-  document.body.insertBefore(description, document.body.firstChild.nextSibling);
+  instructionsContainer.appendChild(description);
+
+  // Insert the instructions container at the top of the document body
+  document.body.insertBefore(instructionsContainer, document.body.firstChild);
 
   let bodies = people.map((person) =>
     Matter.Bodies.circle(
