@@ -1,276 +1,76 @@
 {
   "people": [
     {
-      "name": "Plato",
-      "bio": "Foundational structures of Western philosophy.",
-      "color": "#DEB887",
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "bio": "Action, adventure, philosophical themes",
+      "color": "#F1C40F",
       "radius": 100
     },
     {
-      "name": "Aristotle",
-      "bio": "Contributor to logic, metaphysics, ethics.",
-      "color": "#A52A2A",
+      "name": "Serial Experiments Lain",
+      "bio": "Psychological, cyberpunk, mind-bending",
+      "color": "#E74C3C",
       "radius": 100
     },
     {
-      "name": "Socrates",
-      "bio": "Founder of Western ethics.",
-      "color": "#5F9EA0",
+      "name": "Attack on Titan",
+      "bio": "Dark fantasy, action, mystery",
+      "color": "#2ECC71",
       "radius": 100
     },
     {
-      "name": "Epicurus",
-      "bio": "Founder of Epicureanism.",
-      "color": "#8FBC8B",
+      "name": "Steins;Gate",
+      "bio": "Sci-fi thriller, time travel",
+      "color": "#9B59B6",
       "radius": 100
     },
     {
-      "name": "Augustine of Hippo",
-      "bio": "Influential early Christian theologian.",
-      "color": "#D2691E",
+      "name": "Neon Genesis Evangelion",
+      "bio": "Mecha, psychological, existential",
+      "color": "#34495E",
       "radius": 100
     },
     {
-      "name": "Thomas Aquinas",
-      "bio": "Scholastic synthesis of Aristotelian philosophy.",
-      "color": "#FF7F50",
+      "name": "Cowboy Bebop",
+      "bio": "Space Western, noir elements",
+      "color": "#16A085",
       "radius": 100
     },
     {
-      "name": "Anselm of Canterbury",
-      "bio": "Known for ontological argument.",
-      "color": "#6495ED",
+      "name": "Hunter x Hunter",
+      "bio": "Long-running shonen, complex characters",
+      "color": "#F39C12",
       "radius": 100
     },
     {
-      "name": "René Descartes",
-      "bio": "Father of modern philosophy.",
-      "color": "#DC143C",
+      "name": "Monster",
+      "bio": "Psychological thriller, mature themes",
+      "color": "#95A5A6",
       "radius": 100
     },
     {
-      "name": "Immanuel Kant",
-      "bio": "Work on epistemology and ethics.",
-      "color": "#00FFFF",
+      "name": "Death Note",
+      "bio": "Suspense, battle of wits",
+      "color": "#E91E63",
       "radius": 100
     },
     {
-      "name": "John Locke",
-      "bio": "Father of Liberalism.",
-      "color": "#00008B",
-      "radius": 100
-    },
-    {
-      "name": "David Hume",
-      "bio": "Empirical skeptic, Enlightenment thinker.",
-      "color": "#008B8B",
-      "radius": 100
-    },
-    {
-      "name": "Georg Wilhelm Friedrich Hegel",
-      "bio": "Developed comprehensive philosophical framework.",
-      "color": "#B8860B",
-      "radius": 100
-    },
-    {
-      "name": "Jean-Jacques Rousseau",
-      "bio": "Influenced Enlightenment in France.",
-      "color": "#A9A9A9",
-      "radius": 100
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "bio": "Critiqued traditional morality and religion.",
-      "color": "#006400",
-      "radius": 100
-    },
-    {
-      "name": "Karl Marx",
-      "bio": "Developed the theory of Marxism.",
-      "color": "#BDB76B",
-      "radius": 100
-    },
-    {
-      "name": "Søren Kierkegaard",
-      "bio": "First existentialist philosopher.",
-      "color": "#8B008B",
-      "radius": 100
-    },
-    {
-      "name": "Ludwig Wittgenstein",
-      "bio": "Philosophy of language, logic, mind.",
-      "color": "#556B2F",
-      "radius": 100
-    },
-    {
-      "name": "Martin Heidegger",
-      "bio": "Major figure in existentialism.",
-      "color": "#FF8C00",
-      "radius": 100
-    },
-    {
-      "name": "Jean-Paul Sartre",
-      "bio": "Key figure in existentialism.",
-      "color": "#9932CC",
-      "radius": 100
-    },
-    {
-      "name": "Simone de Beauvoir",
-      "bio": "Significant existentialist, feminist.",
-      "color": "#8B0000",
-      "radius": 100
-    },
-    {
-      "name": "Michel Foucault",
-      "bio": "Studies of power and knowledge.",
-      "color": "#E9967A",
-      "radius": 100
-    },
-    {
-      "name": "Jacques Derrida",
-      "bio": "Leading figure in deconstruction.",
-      "color": "#8FBC8F",
-      "radius": 100
-    },
-    {
-      "name": "Confucius",
-      "bio": "Chinese philosopher, educator.",
-      "color": "#483D8B",
-      "radius": 100
-    },
-    {
-      "name": "Laozi",
-      "bio": "Founder of Taoism.",
-      "color": "#2F4F4F",
-      "radius": 100
-    },
-    {
-      "name": "Nāgārjuna",
-      "bio": "Central figure in Mahayana Buddhism.",
-      "color": "#00CED1",
+      "name": "Gintama",
+      "bio": "Primarily comedy, samurai setting",
+      "color": "#3498DB",
       "radius": 100
     }
   ],
   "similarityMatrix": [
-    [
-      10, 5, 6, 4, 3, 2, 2, 5, 6, 3, 5, 4, 3, 2, 5, 7, 6, 5, 4, 2, 1, 3, 2, 1,
-      2, 1, 2, 3, 4, 1
-    ],
-    [
-      5, 10, 6, 4, 5, 3, 2, 7, 6, 4, 6, 5, 4, 3, 6, 6, 7, 5, 4, 3, 2, 4, 3, 1,
-      2, 2, 3, 3, 5, 2
-    ],
-    [
-      6, 6, 10, 5, 4, 3, 3, 6, 7, 4, 5, 4, 4, 3, 6, 8, 7, 6, 5, 3, 1, 3, 2, 1,
-      2, 2, 3, 5, 6, 1
-    ],
-    [
-      4, 4, 5, 10, 8, 6, 7, 4, 5, 6, 4, 5, 5, 6, 5, 5, 4, 5, 4, 5, 1, 3, 2, 1,
-      2, 1, 3, 4, 5, 1
-    ],
-    [
-      3, 5, 4, 8, 10, 7, 8, 3, 4, 7, 3, 4, 5, 6, 4, 4, 3, 4, 3, 6, 2, 3, 2, 1,
-      2, 1, 2, 3, 4, 1
-    ],
-    [
-      2, 3, 3, 6, 7, 10, 9, 2, 3, 5, 2, 3, 4, 5, 3, 3, 2, 3, 2, 4, 1, 2, 1, 1,
-      1, 1, 2, 3, 3, 1
-    ],
-    [
-      2, 2, 3, 7, 8, 9, 10, 1, 2, 6, 1, 2, 3, 4, 2, 2, 1, 2, 1, 5, 1, 2, 1, 1,
-      1, 1, 1, 2, 2, 1
-    ],
-    [
-      5, 7, 6, 4, 3, 2, 1, 10, 6, 3, 7, 6, 4, 3, 6, 7, 6, 7, 6, 3, 2, 5, 3, 2,
-      3, 3, 4, 5, 6, 2
-    ],
-    [
-      6, 6, 7, 5, 4, 3, 2, 6, 10, 4, 6, 5, 4, 3, 7, 8, 7, 6, 5, 3, 1, 3, 2, 1,
-      2, 2, 3, 5, 6, 1
-    ],
-    [
-      3, 4, 4, 6, 7, 5, 6, 3, 4, 10, 3, 4, 5, 6, 4, 4, 3, 4, 3, 7, 2, 3, 2, 1,
-      2, 1, 2, 3, 4, 1
-    ],
-    [
-      5, 6, 5, 4, 3, 2, 1, 7, 6, 3, 10, 5, 4, 3, 5, 6, 5, 5, 4, 2, 1, 4, 3, 1,
-      2, 2, 3, 4, 5, 2
-    ],
-    [
-      4, 5, 4, 5, 4, 3, 2, 6, 5, 4, 5, 10, 4, 3, 5, 5, 4, 5, 4, 2, 1, 3, 2, 1,
-      2, 2, 3, 4, 5, 1
-    ],
-    [
-      3, 4, 4, 5, 5, 4, 3, 4, 4, 5, 4, 4, 10, 5, 4, 4, 3, 4, 3, 6, 2, 3, 2, 1,
-      2, 1, 2, 3, 4, 1
-    ],
-    [
-      2, 3, 3, 6, 6, 5, 4, 3, 3, 6, 3, 3, 5, 10, 3, 3, 2, 3, 2, 5, 1, 2, 1, 1,
-      1, 1, 2, 3, 3, 1
-    ],
-    [
-      5, 6, 6, 5, 4, 3, 2, 6, 7, 4, 5, 5, 4, 3, 10, 7, 6, 5, 4, 2, 1, 3, 2, 1,
-      2, 2, 3, 5, 6, 1
-    ],
-    [
-      7, 6, 8, 5, 4, 3, 2, 7, 8, 4, 6, 5, 4, 3, 7, 10, 9, 6, 5, 3, 1, 4, 2, 1,
-      2, 2, 3, 5, 6, 1
-    ],
-    [
-      6, 7, 7, 4, 3, 2, 1, 6, 7, 3, 5, 4, 3, 2, 6, 9, 10, 6, 5, 2, 1, 3, 2, 1,
-      2, 2, 3, 5, 6, 1
-    ],
-    [
-      5, 5, 6, 5, 4, 3, 2, 7, 6, 4, 5, 5, 4, 3, 5, 6, 6, 10, 7, 3, 1, 3, 2, 1,
-      2, 2, 3, 5, 6, 1
-    ],
-    [
-      4, 4, 5, 4, 3, 2, 1, 6, 5, 3, 4, 4, 3, 2, 4, 5, 5, 7, 10, 2, 1, 2, 2, 1,
-      2, 2, 3, 4, 5, 1
-    ],
-    [
-      2, 3, 3, 5, 6, 4, 5, 3, 3, 7, 2, 2, 6, 5, 2, 3, 2, 3, 2, 10, 2, 3, 2, 1,
-      2, 1, 2, 3, 4, 1
-    ],
-    [
-      1, 2, 1, 1, 2, 1, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 10, 6, 7, 9,
-      8, 6, 5, 2, 1, 9
-    ],
-    [
-      3, 4, 3, 3, 3, 2, 2, 5, 3, 3, 4, 3, 3, 2, 3, 4, 3, 3, 2, 3, 6, 10, 7, 8,
-      6, 6, 5, 3, 3, 7
-    ],
-    [
-      2, 3, 2, 2, 2, 1, 1, 3, 2, 2, 3, 2, 2, 1, 2, 2, 2, 2, 2, 2, 7, 7, 10, 8,
-      7, 6, 5, 2, 2, 8
-    ],
-    [
-      1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 8, 8, 10,
-      7, 7, 6, 2, 1, 9
-    ],
-    [
-      2, 2, 2, 2, 2, 1, 1, 3, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 8, 6, 7, 7,
-      10, 8, 7, 3, 2, 8
-    ],
-    [
-      1, 2, 2, 1, 1, 1, 1, 3, 2, 1, 2, 2, 1, 1, 2, 2, 2, 2, 2, 1, 6, 6, 6, 7, 8,
-      10, 9, 2, 1, 9
-    ],
-    [
-      2, 3, 3, 3, 2, 2, 1, 4, 3, 2, 3, 3, 2, 2, 3, 3, 3, 3, 3, 2, 5, 5, 5, 6, 7,
-      9, 10, 3, 2, 7
-    ],
-    [
-      3, 3, 5, 4, 3, 3, 2, 5, 5, 3, 4, 4, 3, 3, 5, 5, 5, 5, 4, 3, 2, 3, 2, 2, 3,
-      2, 3, 10, 6, 2
-    ],
-    [
-      4, 5, 6, 5, 4, 3, 2, 6, 6, 4, 5, 5, 4, 3, 6, 6, 6, 6, 5, 4, 1, 3, 2, 1, 2,
-      1, 2, 6, 10, 1
-    ],
-    [
-      1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 7, 8, 9, 8,
-      9, 7, 2, 1, 10
-    ]
+    [10, 5, 7, 6, 5, 4, 6, 6, 7, 3],
+    [5, 10, 3, 4, 5, 3, 3, 5, 4, 2],
+    [7, 3, 10, 5, 4, 3, 6, 5, 6, 2],
+    [6, 4, 5, 10, 4, 3, 5, 6, 5, 2],
+    [5, 5, 4, 4, 10, 3, 4, 6, 4, 2],
+    [4, 3, 3, 3, 3, 10, 3, 3, 3, 3],
+    [6, 3, 6, 5, 4, 3, 10, 5, 6, 2],
+    [6, 5, 5, 6, 6, 3, 5, 10, 6, 2],
+    [7, 4, 6, 5, 4, 3, 6, 6, 10, 2],
+    [3, 2, 2, 2, 2, 3, 2, 2, 2, 10]
   ]
 }
