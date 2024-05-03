@@ -1,76 +1,167 @@
 {
+  "title": "Philosophical Overlaps Among Influential Philosophers",
   "people": [
     {
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "bio": "Action, adventure, philosophical themes",
-      "color": "#F1C40F",
-      "radius": 100
+      "name": "Plato",
+      "bio": "Founder of Western philosophy",
+      "color": "#FF5733",
+      "radius": 100,
+      "description": "Plato’s philosophy centered on the theory of Forms and the importance of reason. His metaphysical dualism and ethical theories have been highly influential."
     },
     {
-      "name": "Serial Experiments Lain",
-      "bio": "Psychological, cyberpunk, mind-bending",
-      "color": "#E74C3C",
-      "radius": 100
-    },
-    {
-      "name": "Attack on Titan",
-      "bio": "Dark fantasy, action, mystery",
-      "color": "#2ECC71",
-      "radius": 100
-    },
-    {
-      "name": "Steins;Gate",
-      "bio": "Sci-fi thriller, time travel",
-      "color": "#9B59B6",
-      "radius": 100
-    },
-    {
-      "name": "Neon Genesis Evangelion",
-      "bio": "Mecha, psychological, existential",
-      "color": "#34495E",
-      "radius": 100
-    },
-    {
-      "name": "Cowboy Bebop",
-      "bio": "Space Western, noir elements",
-      "color": "#16A085",
-      "radius": 100
-    },
-    {
-      "name": "Hunter x Hunter",
-      "bio": "Long-running shonen, complex characters",
-      "color": "#F39C12",
-      "radius": 100
-    },
-    {
-      "name": "Monster",
-      "bio": "Psychological thriller, mature themes",
-      "color": "#95A5A6",
-      "radius": 100
-    },
-    {
-      "name": "Death Note",
-      "bio": "Suspense, battle of wits",
-      "color": "#E91E63",
-      "radius": 100
-    },
-    {
-      "name": "Gintama",
-      "bio": "Primarily comedy, samurai setting",
+      "name": "Aristotle",
+      "bio": "Pioneer of logical reasoning",
       "color": "#3498DB",
-      "radius": 100
+      "radius": 100,
+      "description": "Aristotle’s empirical approach and comprehensive systems of logic and ethics contrasted with Plato’s idealism, focusing more on earthly realities and pragmatism."
+    },
+    {
+      "name": "Immanuel Kant",
+      "bio": "Proponent of transcendental idealism",
+      "color": "#FFC300",
+      "radius": 100,
+      "description": "Kant revolutionized philosophy with his theories of knowledge, ethics, and aesthetics, emphasizing the limits of human perception and the role of duty in ethics."
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "bio": "Critic of traditional morality",
+      "color": "#C70039",
+      "radius": 100,
+      "description": "Nietzsche challenged the foundations of Christianity and traditional morality, advocating for the will to power and the concept of the ‘Übermensch’."
+    },
+    {
+      "name": "René Descartes",
+      "bio": "Father of modern philosophy",
+      "color": "#900C3F",
+      "radius": 100,
+      "description": "Descartes’ philosophy is known for its radical doubt and the cogito argument, foundational for the development of modern science and rationalism."
+    },
+    {
+      "name": "David Hume",
+      "bio": "Empiricist and skeptic",
+      "color": "#581845",
+      "radius": 100,
+      "description": "Hume was a central figure in the Scottish Enlightenment, emphasizing empiricism, skepticism, and the naturalistic study of human behavior."
+    },
+    {
+      "name": "John Locke",
+      "bio": "Influential liberal philosopher",
+      "color": "#341930",
+      "radius": 100,
+      "description": "Locke’s thoughts on liberal democracy and the social contract are foundational in Western political thought, emphasizing individual liberty and government as a protector of natural rights."
+    },
+    {
+      "name": "Jean-Jacques Rousseau",
+      "bio": "Theorist of the social contract",
+      "color": "#009688",
+      "radius": 100,
+      "description": "Rousseau’s philosophy centered on the social contract and the belief that man is good by nature but corrupted by society."
+    },
+    {
+      "name": "Søren Kierkegaard",
+      "bio": "Father of existentialism",
+      "color": "#E91E63",
+      "radius": 100,
+      "description": "Kierkegaard focused on individual existence, Christian ethics, and the concept of angst, marking the beginning of existential philosophy."
+    },
+    {
+      "name": "Ludwig Wittgenstein",
+      "bio": "Philosopher of language",
+      "color": "#3F51B5",
+      "radius": 100,
+      "description": "Wittgenstein’s philosophical investigations centered on the limits of language, theorizing that much of philosophy’s problems arise from misunderstandings of language."
+    },
+    {
+      "name": "Karl Marx",
+      "bio": "Philosopher of economics and society",
+      "color": "#FF9800",
+      "radius": 100,
+      "description": "Marx developed the theory of historical materialism, asserting that material conditions and economic practices shape social structures and cultural ideas."
+    },
+    {
+      "name": "Thomas Aquinas",
+      "bio": "Scholastic theologian and philosopher",
+      "color": "#9C27B0",
+      "radius": 100,
+      "description": "Aquinas harmonized Christian theology with Aristotelian philosophy, promoting a synthesis of faith and reason and influencing Catholic doctrine profoundly."
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "bio": "Master of dialectical method",
+      "color": "#3E2723",
+      "radius": 100,
+      "description": "Hegel’s philosophy of absolute idealism proposed that reality unfolds through a dialectical process where every thesis encounters its antithesis, leading to a synthesis."
+    },
+    {
+      "name": "Arthur Schopenhauer",
+      "bio": "Philosopher of pessimism",
+      "color": "#795548",
+      "radius": 100,
+      "description": "Schopenhauer’s philosophy was deeply pessimistic, viewing human desire as the cause of suffering. He was a major influence on existential and nihilistic thoughts."
+    },
+    {
+      "name": "Simone de Beauvoir",
+      "bio": "Existentialist and feminist",
+      "color": "#607D8B",
+      "radius": 100,
+      "description": "De Beauvoir’s existential feminism argued that one is not born but becomes a woman, emphasizing the role of societal constructs in gender roles."
+    },
+    {
+      "name": "Martin Heidegger",
+      "bio": "Existential phenomenologist",
+      "color": "#FFEB3B",
+      "radius": 100,
+      "description": "Heidegger’s analysis of existence and being proposed that understanding one’s own being and the world is central to philosophical thought."
+    },
+    {
+      "name": "Bertrand Russell",
+      "bio": "Logician and social critic",
+      "color": "#00BCD4",
+      "radius": 100,
+      "description": "Russell’s work in analytical philosophy and logic aimed at refining philosophical study through precise and formal techniques, also advocating for nuclear disarmament and social reform."
+    },
+    {
+      "name": "Michel Foucault",
+      "bio": "Critical theorist of power",
+      "color": "#0097A7",
+      "radius": 100,
+      "description": "Foucault examined how power relationships affect both societal institutions and individual behaviors, questioning the relationship between power, knowledge, and social norms."
+    },
+    {
+      "name": "Hannah Arendt",
+      "bio": "Political theorist",
+      "color": "#8BC34A",
+      "radius": 100,
+      "description": "Arendt explored the roots of totalitarianism and the nature of power, emphasizing the importance of direct political engagement and deliberative democracy."
+    },
+    {
+      "name": "Confucius",
+      "bio": "Founder of Confucianism",
+      "color": "#CDDC39",
+      "radius": 100,
+      "description": "Confucius’s teachings focused on morality, government, and proper personal and societal relationships, emphasizing respect, family values, and traditional rituals."
     }
   ],
   "similarityMatrix": [
-    [10, 5, 7, 6, 5, 4, 6, 6, 7, 3],
-    [5, 10, 3, 4, 5, 3, 3, 5, 4, 2],
-    [7, 3, 10, 5, 4, 3, 6, 5, 6, 2],
-    [6, 4, 5, 10, 4, 3, 5, 6, 5, 2],
-    [5, 5, 4, 4, 10, 3, 4, 6, 4, 2],
-    [4, 3, 3, 3, 3, 10, 3, 3, 3, 3],
-    [6, 3, 6, 5, 4, 3, 10, 5, 6, 2],
-    [6, 5, 5, 6, 6, 3, 5, 10, 6, 2],
-    [7, 4, 6, 5, 4, 3, 6, 6, 10, 2],
-    [3, 2, 2, 2, 2, 3, 2, 2, 2, 10]
+    [10, 8, 6, 4, 6, 5, 7, 5, 4, 4, 5, 7, 6, 5, 5, 4, 6, 5, 5, 7],
+    [8, 10, 7, 5, 7, 6, 8, 6, 5, 5, 6, 8, 7, 6, 6, 5, 7, 6, 6, 8],
+    [6, 7, 10, 5, 7, 6, 7, 6, 5, 4, 6, 7, 7, 6, 6, 5, 7, 7, 6, 7],
+    [4, 5, 5, 10, 4, 4, 4, 5, 7, 6, 5, 4, 5, 8, 7, 7, 5, 6, 5, 4],
+    [6, 7, 7, 4, 10, 8, 7, 6, 5, 5, 7, 6, 5, 4, 6, 5, 7, 7, 6, 6],
+    [5, 6, 6, 4, 8, 10, 6, 6, 4, 4, 5, 5, 4, 3, 5, 4, 6, 6, 5, 5],
+    [7, 8, 7, 4, 7, 6, 10, 9, 6, 4, 7, 7, 6, 4, 6, 5, 8, 6, 7, 7],
+    [5, 6, 6, 5, 6, 6, 9, 10, 7, 5, 5, 6, 5, 5, 7, 6, 6, 6, 7, 6],
+    [4, 5, 5, 7, 5, 4, 6, 7, 10, 9, 4, 3, 4, 6, 7, 8, 4, 5, 6, 4],
+    [4, 5, 4, 6, 5, 4, 4, 5, 9, 10, 4, 3, 5, 7, 6, 8, 4, 5, 5, 4],
+    [5, 6, 6, 5, 7, 5, 7, 5, 4, 4, 10, 7, 6, 5, 7, 4, 7, 7, 6, 8],
+    [7, 8, 7, 4, 6, 5, 7, 6, 3, 3, 7, 10, 8, 6, 5, 4, 7, 6, 6, 7],
+    [6, 7, 7, 5, 5, 4, 6, 5, 4, 5, 6, 8, 10, 7, 5, 6, 6, 8, 6, 5],
+    [5, 6, 6, 8, 4, 3, 4, 5, 6, 7, 5, 6, 7, 10, 7, 7, 5, 6, 5, 4],
+    [5, 6, 6, 7, 6, 5, 6, 7, 7, 6, 7, 5, 5, 7, 10, 9, 6, 7, 8, 5],
+    [4, 5, 5, 7, 5, 4, 5, 6, 8, 8, 4, 4, 6, 7, 9, 10, 5, 6, 7, 4],
+    [6, 7, 7, 5, 7, 6, 8, 6, 4, 4, 7, 7, 6, 5, 6, 5, 10, 7, 7, 6],
+    [5, 6, 7, 6, 7, 6, 6, 6, 5, 5, 7, 6, 8, 6, 7, 6, 7, 10, 9, 7],
+    [5, 6, 6, 5, 6, 5, 7, 7, 6, 5, 6, 6, 6, 5, 8, 7, 7, 9, 10, 6],
+    [7, 8, 7, 4, 6, 5, 7, 6, 4, 4, 8, 7, 5, 4, 5, 4, 6, 7, 6, 10]
   ]
 }

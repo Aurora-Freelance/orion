@@ -1,34 +1,35 @@
 **Philosopher Similarity Visualizer**
 
-This project is a web application that visualizes the similarities between different philosophers based on their philosophical work. It uses a JSON file containing data about the philosophers, including their names, brief bios, and similarity scores, to generate an interactive visualization.
+This project is a web application that visualizes the similarities between different people. It uses a JSON file containing data about the person, including their names, brief bios, and similarity scores, to generate an interactive visualization.
 
 ## How to Use
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/philosopher-similarity-visualizer.git
+   git clone https://github.com/Aurora-Freelance/orion.git
    ```
 
 2. **Navigate to the Project Directory**: Enter the project directory:
 
    ```bash
-   cd philosopher-similarity-visualizer
+   cd orion
    ```
 
 3. **Open the HTML File**: Open the `index.html` file in your web browser.
 
-4. **Explore the Visualization**: You will see bubbles representing different philosophers on the screen. Each bubble contains the philosopher's name and a brief bio. Click on any bubble to visualize the similarities between that philosopher and others. The bubbles will resize based on the similarity scores.
+4. **Explore the Visualization**: You will see bubbles representing different people on the screen. Each bubble contains the person's name and a brief bio. Click on any bubble to visualize the similarities between that philosopher and others. The bubbles will resize based on the similarity scores.
 
 ## Data Source
 
-The philosopher data used in this project was generated using ChatGPT queries. Specifically, the `people.json` file contains information about each philosopher, including their name, bio, and similarity scores. The similarity scores were determined based on the perceived similarity of the philosophers' philosophical work.
+The people data used in this project was generated using ChatGPT queries. Specifically, the `people.json` file contains information about each person, including their name, bio, and similarity scores. The similarity scores were determined based on the perceived similarity of the person' from the lense of ChatGPT.
 
 ## ChatGPT Queries
 
 ```
 Can you give me a list of the ten most famous music artists, format similarity matrix based on how similar their fan base is. Ues this json formmating below. shorten the bio to under five words.
 {
+  "title": "Explore Music Artist Fan Base Overlaps Interactively",
   "people": [
     {
       "name": "Alice",

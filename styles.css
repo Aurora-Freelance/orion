@@ -1,10 +1,61 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
 }
 canvas {
-    display: block;
-    background: #272727;
+  display: block;
+  background: #272727;
+}
+.app-title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial", sans-serif;
+  font-size: 2em;
+  color: #fff;
+}
+.app-description {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  position: absolute;
+}
+
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.github-corner img {
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

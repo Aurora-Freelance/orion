@@ -4,8 +4,21 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   const response = await fetch("people.json");
   const data = await response.json();
+  const title = data.title;
   const people = data.people;
   const similarityMatrix = data.similarityMatrix;
+
+  // Display the title and description at the top of the screen
+  const appTitle = document.createElement("h1");
+  appTitle.innerText = title;
+  appTitle.className = "app-title"; // Adding class to the title
+  document.body.insertBefore(appTitle, document.body.firstChild);
+
+  const description = document.createElement("p");
+  description.innerText =
+    "Touch circles to make them grow. The size of the circles is based on the similarity between them.";
+  description.className = "app-description"; // Adding class to the description
+  document.body.insertBefore(description, document.body.firstChild.nextSibling);
 
   let bodies = people.map((person) =>
     Matter.Bodies.circle(
