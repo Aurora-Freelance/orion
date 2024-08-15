@@ -38,7 +38,7 @@ The data used in this project was generated using ChatGPT queries. The `language
 
 To generate a new visualization, use the following query. Simply paste the resulting JSON into `data/language.json`. Alternatively, you can create a new JSON file and update the file path in `js/main.js` on line 5.
 
-```json
+```
 Can you give me a list of the ten most popular spoken languages in the world, formatted as a similarity matrix based on how similar their structure, writing system, and linguistic roots are? Use the JSON format below, and keep bios under five words.
 
 {
