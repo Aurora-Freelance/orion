@@ -6,7 +6,7 @@ This project is a web application that visualizes the similarities between conce
 
 Check out the live version of the project [here](https://aurora-freelance.github.io/orion/).
 
-![Orion Demo](https://aurora-freelance.github.io/orion/demo2.png)
+![Orion Demo](https://aurora-freelance.github.io/orion/demo3.png)
 
 ## How to Use
 
