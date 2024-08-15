@@ -1,0 +1,147 @@
+{
+  "title": "Language Cultural Similarity Matrix",
+  "people": [
+    {
+      "name": "English",
+      "bio": "Global lingua franca",
+      "color": "#3498DB",
+      "radius": 100
+    },
+    {
+      "name": "Mandarin",
+      "bio": "China's official language",
+      "color": "#E74C3C",
+      "radius": 100
+    },
+    {
+      "name": "Spanish",
+      "bio": "Widely spoken in Americas",
+      "color": "#9B59B6",
+      "radius": 100
+    },
+    {
+      "name": "French",
+      "bio": "Official in multiple continents",
+      "color": "#2ECC71",
+      "radius": 100
+    },
+    {
+      "name": "Arabic",
+      "bio": "Middle East and Africa",
+      "color": "#F1C40F",
+      "radius": 100
+    },
+    {
+      "name": "Hindi",
+      "bio": "Main language in India",
+      "color": "#E67E22",
+      "radius": 100
+    },
+    {
+      "name": "Portuguese",
+      "bio": "Spoken in Brazil, Portugal",
+      "color": "#D35400",
+      "radius": 100
+    },
+    {
+      "name": "Russian",
+      "bio": "Spoken in Russia, Asia",
+      "color": "#2980B9",
+      "radius": 100
+    },
+    {
+      "name": "Japanese",
+      "bio": "Used in Japan",
+      "color": "#8E44AD",
+      "radius": 100
+    },
+    {
+      "name": "German",
+      "bio": "Central European language",
+      "color": "#2C3E50",
+      "radius": 100
+    },
+    {
+      "name": "Bengali",
+      "bio": "Spoken in Bangladesh, India",
+      "color": "#F39C12",
+      "radius": 100
+    },
+    {
+      "name": "Korean",
+      "bio": "Used in South Korea",
+      "color": "#C0392B",
+      "radius": 100
+    },
+    {
+      "name": "Italian",
+      "bio": "Historical European language",
+      "color": "#16A085",
+      "radius": 100
+    },
+    {
+      "name": "Turkish",
+      "bio": "Key language in Turkey",
+      "color": "#7F8C8D",
+      "radius": 100
+    },
+    {
+      "name": "Swahili",
+      "bio": "East African language",
+      "color": "#BDC3C7",
+      "radius": 100
+    },
+    {
+      "name": "Indonesian/Malay",
+      "bio": "Spoken in Southeast Asia",
+      "color": "#34495E",
+      "radius": 100
+    },
+    {
+      "name": "Dutch",
+      "bio": "Spoken in Netherlands, Belgium",
+      "color": "#F39C12",
+      "radius": 100
+    },
+    {
+      "name": "Persian",
+      "bio": "Central Asia and Iran",
+      "color": "#9C88FF",
+      "radius": 100
+    },
+    {
+      "name": "Vietnamese",
+      "bio": "Spoken in Vietnam",
+      "color": "#22A6B3",
+      "radius": 100
+    },
+    {
+      "name": "Urdu",
+      "bio": "Important in Pakistan",
+      "color": "#BE2EDD",
+      "radius": 100
+    }
+  ],
+  "similarityMatrix": [
+    [10, 2, 8, 7, 2, 3, 6, 4, 3, 7, 2, 3, 7, 4, 3, 3, 8, 3, 3, 3],
+    [2, 10, 1, 1, 2, 3, 1, 2, 2, 2, 2, 2, 2, 2, 1, 3, 1, 3, 1, 2],
+    [8, 1, 10, 8, 4, 4, 9, 4, 3, 7, 4, 3, 8, 5, 4, 4, 8, 3, 4, 4],
+    [7, 1, 8, 10, 5, 3, 7, 5, 4, 8, 3, 4, 9, 6, 5, 4, 9, 4, 4, 3],
+    [2, 2, 4, 5, 10, 2, 4, 4, 2, 3, 3, 2, 4, 7, 6, 3, 3, 6, 2, 3],
+    [3, 3, 4, 3, 2, 10, 3, 3, 3, 3, 8, 3, 3, 3, 3, 3, 3, 4, 3, 8],
+    [6, 1, 9, 7, 4, 3, 10, 4, 3, 6, 3, 3, 7, 5, 4, 4, 7, 4, 3, 3],
+    [4, 2, 4, 5, 4, 3, 4, 10, 4, 8, 3, 4, 5, 6, 4, 3, 6, 5, 4, 3],
+    [3, 2, 3, 4, 2, 3, 3, 4, 10, 4, 3, 7, 4, 3, 2, 3, 4, 3, 5, 3],
+    [7, 2, 7, 8, 3, 3, 6, 8, 4, 10, 3, 4, 8, 5, 3, 4, 8, 4, 4, 3],
+    [2, 2, 4, 3, 3, 8, 3, 3, 3, 3, 10, 3, 3, 3, 3, 3, 3, 4, 3, 9],
+    [3, 2, 3, 4, 2, 3, 3, 4, 7, 4, 3, 10, 4, 3, 2, 3, 4, 3, 5, 3],
+    [7, 2, 8, 9, 4, 3, 7, 5, 4, 8, 3, 4, 10, 6, 5, 4, 8, 4, 4, 3],
+    [4, 2, 5, 6, 7, 3, 5, 6, 3, 5, 3, 3, 6, 10, 7, 3, 6, 8, 3, 3],
+    [3, 1, 4, 5, 6, 3, 4, 4, 2, 3, 3, 2, 5, 7, 10, 3, 4, 6, 2, 3],
+    [3, 3, 4, 4, 3, 3, 4, 3, 3, 4, 3, 3, 4, 3, 3, 10, 5, 3, 4, 3],
+    [8, 1, 8, 9, 3, 3, 7, 6, 4, 8, 3, 4, 8, 6, 4, 5, 10, 4, 4, 3],
+    [3, 3, 3, 4, 6, 4, 4, 5, 3, 4, 4, 3, 4, 8, 6, 3, 4, 10, 3, 4],
+    [3, 1, 4, 4, 2, 3, 3, 4, 5, 4, 3, 5, 4, 3, 2, 4, 4, 3, 10, 3],
+    [3, 2, 4, 3, 3, 8, 3, 3, 3, 3, 9, 3, 3, 3, 3, 3, 3, 4, 3, 10]
+  ]
+}

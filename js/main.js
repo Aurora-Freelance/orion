@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const { engine, render } = setupMatter();
   engine.world.gravity.y = 0.1; // This turns off the downward gravity in the y-axis
 
-  const response = await fetch("data/people.json");
+  const response = await fetch("data/language.json");
   const data = await response.json();
   const title = data.title;
   const people = data.people;
